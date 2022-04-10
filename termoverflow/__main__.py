@@ -1,3 +1,4 @@
+import platform
 from termoverflow.__init__ import VERSION
 import typer
 from rich import print
@@ -56,6 +57,18 @@ def version():
     Print the version.
     """
     print(f"TermOverflow version [aqua]{VERSION}[/aqua]")
+
+@app.command()
+def mydevice():
+    """\
+    Print the device info.
+    """
+    print("Python version:", os.sys.version)
+    print("")
+    print("Operating system:", platform.system(), platform.release())
+    print("Operating system version:", platform.version())
+    print("")
+    print("Computer architecture:", platform.machine())
 
 if __name__ == "__main__":
     app()
