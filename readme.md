@@ -28,3 +28,7 @@ python3 -m termoverflow s "Your query"
 # Get version
 python3 -m termoverflow version
 ```
+
+## Troubleshooting
+
+If you get errors (especially KeyError), it´s most likely that your daily api-limit is reached.
