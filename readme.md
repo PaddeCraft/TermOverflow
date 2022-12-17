@@ -31,12 +31,11 @@ python3 -m termoverflow version
 
 ## Feature list
 
-[x] Query StackOverflow
-[ ] Show authors and question owner
-[ ] Show tags
+- [x] Query StackOverflow
+- [ ] Show authors and question owner
+- [ ] Show tags
 
 If you have a feature request, open a issue.
-Please note: I do not work on *that* often, so maybe it takes a bit for me to respond. 
 
 ## Troubleshooting
 
